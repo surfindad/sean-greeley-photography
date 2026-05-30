@@ -1,27 +1,25 @@
 import Link from "next/link";
 
-const BASE = "https://res.cloudinary.com/dyryccn7y/image/upload/home/";
-
 const categories = [
   {
     label: "Residential",
     description: "Single-family homes, condos, and townhouses presented at their finest.",
-    image: BASE + "Screenshot_2026-05-29_at_5.49.43_PM_jbactt",
+    image: "https://i.ibb.co/JW8Vg1zL/DSC0039.jpg",
   },
   {
     label: "Commercial",
     description: "Office spaces, retail properties, and investment assets captured with precision.",
-    image: BASE + "DSC00018_vjgt0d",
+    image: "https://i.ibb.co/84t8vkmr/Photo-Jun-14-2021-8-25-24-AM.jpg",
   },
   {
     label: "Luxury",
     description: "High-end estates and architectural masterpieces deserving world-class imagery.",
-    image: BASE + "Screenshot_2026-05-29_at_5.53.11_PM_qxoo2z",
+    image: "https://i.ibb.co/1GZFxN9v/Photo-Aug-14-2024-8-05-28-PM.jpg",
   },
   {
     label: "Aerial",
     description: "Sweeping drone perspectives that reveal the full scope of every property.",
-    image: BASE + "Screenshot_2026-05-29_at_5.51.28_PM_aagdr7",
+    image: "https://i.ibb.co/33GH378/Photo-Apr-24-2019-7-09-42-PM.png",
   },
 ];
 
@@ -32,7 +30,7 @@ export default function HomePage() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Hero image */}
         <img
-          src="https://res.cloudinary.com/dyryccn7y/image/upload/home/Screenshot_2026-05-29_at_5.49.24_PM_emhavv"
+          src="https://i.ibb.co/mFGFzn29/Photo-Aug-14-2024-8-03-56-PM.jpg"
           alt="Sean Greeley Photography"
           className="absolute inset-0 w-full h-full object-cover"
         />
