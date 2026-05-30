@@ -6,111 +6,100 @@ type Category = "All" | "Residential" | "Commercial" | "Luxury" | "Aerial";
 
 const categories: Category[] = ["All", "Residential", "Commercial", "Luxury", "Aerial"];
 
+const BASE = "https://res.cloudinary.com/dyryccn7y/image/upload/home/";
+
 interface PhotoItem {
   id: number;
   label: string;
   sublabel: string;
   category: Exclude<Category, "All">;
-  gradient: string;
-  aspect: string;
+  image: string;
 }
 
 const photos: PhotoItem[] = [
   {
     id: 1,
-    label: "Modern Farmhouse",
-    sublabel: "Los Altos Hills, CA",
+    label: "Twilight Exterior",
+    sublabel: "California",
     category: "Residential",
-    gradient: "from-slate-700 via-slate-600 to-slate-500",
-    aspect: "aspect-[4/3]",
+    image: BASE + "Screenshot_2026-05-29_at_5.49.24_PM_emhavv",
   },
   {
     id: 2,
-    label: "Luxury Estate",
-    sublabel: "Atherton, CA",
+    label: "Luxury Pool Estate",
+    sublabel: "California",
     category: "Luxury",
-    gradient: "from-stone-700 via-amber-900 to-stone-600",
-    aspect: "aspect-[4/3]",
+    image: BASE + "Screenshot_2026-05-29_at_5.53.11_PM_qxoo2z",
   },
   {
     id: 3,
-    label: "Office Complex",
-    sublabel: "San Jose, CA",
-    category: "Commercial",
-    gradient: "from-zinc-700 via-zinc-600 to-zinc-500",
-    aspect: "aspect-[4/3]",
+    label: "Interior Living",
+    sublabel: "California",
+    category: "Residential",
+    image: BASE + "_DSC0027_i5upcl",
   },
   {
     id: 4,
-    label: "Coastal Aerial",
-    sublabel: "Half Moon Bay, CA",
+    label: "Aerial Property View",
+    sublabel: "California",
     category: "Aerial",
-    gradient: "from-neutral-700 via-sky-900 to-neutral-600",
-    aspect: "aspect-[4/3]",
+    image: BASE + "Screenshot_2026-05-29_at_5.51.28_PM_aagdr7",
   },
   {
     id: 5,
-    label: "Contemporary Condo",
-    sublabel: "San Francisco, CA",
+    label: "Interior Detail",
+    sublabel: "California",
     category: "Residential",
-    gradient: "from-gray-700 via-gray-600 to-gray-500",
-    aspect: "aspect-[4/3]",
+    image: BASE + "_DSC0030_zm3vhl",
   },
   {
     id: 6,
-    label: "Penthouse Suite",
-    sublabel: "Palo Alto, CA",
+    label: "Estate Exterior",
+    sublabel: "California",
     category: "Luxury",
-    gradient: "from-stone-800 via-amber-800 to-stone-700",
-    aspect: "aspect-[4/3]",
+    image: BASE + "Screenshot_2026-05-29_at_5.53.52_PM_n2cs4v",
   },
   {
     id: 7,
-    label: "Retail Storefront",
-    sublabel: "Mountain View, CA",
+    label: "Commercial Property",
+    sublabel: "California",
     category: "Commercial",
-    gradient: "from-zinc-800 via-zinc-700 to-zinc-500",
-    aspect: "aspect-[4/3]",
+    image: BASE + "DSC00018_vjgt0d",
   },
   {
     id: 8,
-    label: "Estate Grounds",
-    sublabel: "Woodside, CA",
+    label: "Property Overview",
+    sublabel: "California",
     category: "Aerial",
-    gradient: "from-neutral-800 via-emerald-900 to-neutral-700",
-    aspect: "aspect-[4/3]",
+    image: BASE + "Screenshot_2026-05-29_at_5.53.23_PM_ielm2e",
   },
   {
     id: 9,
-    label: "Victorian Revival",
-    sublabel: "San Francisco, CA",
+    label: "Interior Spaces",
+    sublabel: "California",
     category: "Residential",
-    gradient: "from-slate-800 via-slate-700 to-slate-500",
-    aspect: "aspect-[4/3]",
+    image: BASE + "_DSC0015_j011sk",
   },
   {
     id: 10,
-    label: "Tech Campus",
-    sublabel: "Sunnyvale, CA",
-    category: "Commercial",
-    gradient: "from-zinc-900 via-zinc-700 to-zinc-600",
-    aspect: "aspect-[4/3]",
+    label: "Exterior Twilight",
+    sublabel: "California",
+    category: "Residential",
+    image: BASE + "Screenshot_2026-05-29_at_5.49.43_PM_jbactt",
   },
   {
     id: 11,
-    label: "Hilltop Mansion",
-    sublabel: "Saratoga, CA",
+    label: "Luxury Exterior",
+    sublabel: "California",
     category: "Luxury",
-    gradient: "from-stone-900 via-stone-700 to-amber-800",
-    aspect: "aspect-[4/3]",
+    image: BASE + "Screenshot_2026-05-29_at_5.52.46_PM_ifyxn6",
   },
   {
     id: 12,
-    label: "Valley Overview",
-    sublabel: "Santa Clara Valley, CA",
-    category: "Aerial",
-    gradient: "from-neutral-900 via-neutral-700 to-neutral-500",
-    aspect: "aspect-[4/3]",
+    label: "Property Exterior",
+    sublabel: "California",
+    category: "Commercial",
+    image: BASE + "Screenshot_2026-05-29_at_5.50.19_PM_cesfat",
   },
 ];
 
@@ -151,10 +140,11 @@ export default function PortfolioPage() {
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {filtered.map((photo) => (
-            <div key={photo.id} className={`group relative ${photo.aspect} overflow-hidden`}>
-              {/* Placeholder gradient */}
-              <div
-                className={`absolute inset-0 bg-gradient-to-br ${photo.gradient} group-hover:scale-105 transition-transform duration-700`}
+            <div key={photo.id} className="group relative aspect-[4/3] overflow-hidden">
+              <img
+                src={photo.image}
+                alt={photo.label}
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
               {/* Overlay */}
               <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors duration-500" />

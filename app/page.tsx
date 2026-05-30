@@ -1,25 +1,27 @@
 import Link from "next/link";
 
+const BASE = "https://res.cloudinary.com/dyryccn7y/image/upload/home/";
+
 const categories = [
   {
     label: "Residential",
     description: "Single-family homes, condos, and townhouses presented at their finest.",
-    gradient: "from-slate-800 via-slate-700 to-slate-600",
+    image: BASE + "Screenshot_2026-05-29_at_5.49.43_PM_jbactt",
   },
   {
     label: "Commercial",
     description: "Office spaces, retail properties, and investment assets captured with precision.",
-    gradient: "from-zinc-800 via-zinc-700 to-zinc-500",
+    image: BASE + "DSC00018_vjgt0d",
   },
   {
     label: "Luxury",
     description: "High-end estates and architectural masterpieces deserving world-class imagery.",
-    gradient: "from-stone-800 via-stone-600 to-amber-900",
+    image: BASE + "Screenshot_2026-05-29_at_5.53.11_PM_qxoo2z",
   },
   {
     label: "Aerial",
     description: "Sweeping drone perspectives that reveal the full scope of every property.",
-    gradient: "from-neutral-800 via-neutral-600 to-neutral-400",
+    image: BASE + "Screenshot_2026-05-29_at_5.51.28_PM_aagdr7",
   },
 ];
 
@@ -28,17 +30,14 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Gradient background placeholder */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#1a1a1a] to-[#0d0d0d]" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent" />
-        {/* Subtle texture overlay */}
-        <div
-          className="absolute inset-0 opacity-30"
-          style={{
-            backgroundImage:
-              "radial-gradient(ellipse at 30% 40%, rgba(60,60,80,0.4) 0%, transparent 60%), radial-gradient(ellipse at 70% 60%, rgba(40,50,60,0.3) 0%, transparent 55%)",
-          }}
+        {/* Hero image */}
+        <img
+          src="https://res.cloudinary.com/dyryccn7y/image/upload/home/Screenshot_2026-05-29_at_5.49.24_PM_emhavv"
+          alt="Sean Greeley Photography"
+          className="absolute inset-0 w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/55" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent" />
 
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
           <p className="text-[#888888] text-xs tracking-[0.35em] uppercase mb-6">
@@ -102,8 +101,10 @@ export default function HomePage() {
                 href="/portfolio"
                 className="group relative aspect-[4/5] overflow-hidden block"
               >
-                <div
-                  className={`absolute inset-0 bg-gradient-to-br ${cat.gradient} group-hover:scale-105 transition-transform duration-700`}
+                <img
+                  src={cat.image}
+                  alt={cat.label}
+                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-500" />
                 <div className="absolute inset-0 flex flex-col justify-end p-6">
