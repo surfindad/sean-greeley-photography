@@ -49,29 +49,29 @@ export default function AboutPage() {
 
             <div className="space-y-5 text-[#bbbbbb] font-light leading-relaxed">
               <p>
-                Sean Greeley is a California-based real estate photographer with over a decade
-                of experience producing images that move markets. Trained in architectural
-                photography and post-production, Sean brings a precise eye and a calm,
-                professional presence to every shoot — from compact condos to multi-million-dollar
-                estates.
+                Sean Greeley is a Northern California-based photographer with 16 years of
+                experience in real estate photography, based out of the greater Sacramento area.
+                His eye for light, space, and storytelling was forged long before he ever walked
+                through a listing — Sean built his career in the action sports world, shooting
+                surfing and motocross at the highest levels.
               </p>
               <p>
-                A native of the Bay Area, Sean developed his craft photographing the full
-                spectrum of California real estate: mid-century modern ranch homes in Los Altos,
-                tech-campus offices in Silicon Valley, coastal retreats along the Pacific Coast
-                Highway, and sprawling wine-country estates in Napa and Sonoma.
+                That career took him everywhere. He has shot for the San Francisco Giants,
+                the Sacramento Kings, Red Bull, and major brands throughout the surfing industry.
+                The discipline and vision required to capture fast-moving athletes in dynamic
+                environments translated directly into an ability to make any property — from
+                a modest starter home to a multi-million-dollar estate — look extraordinary.
               </p>
               <p>
-                His work has been used by leading brokerages including Compass, Coldwell Banker,
-                Sotheby&apos;s International Realty, and DRE-licensed boutique firms throughout
-                Northern and Southern California. Sean understands that a well-photographed
-                listing sells faster and at a higher price — and he treats every project with
-                the same attention to detail, regardless of price point.
+                Sean has traveled the length of California for real estate clients, covering
+                Orange County, San Francisco, Napa, Lake Tahoe, and everywhere in between.
+                His commercial work has taken him to Maui, Hawaii, where he has led major
+                shoots for luxury hotel chains.
               </p>
               <p>
-                When not behind the camera, Sean teaches lighting workshops for real estate
-                agents and is an advocate for ethical digital enhancement — delivering images
-                that are beautiful, accurate, and trusted by both sellers and buyers.
+                Whether it is a twilight exterior, an aerial drone sequence, or a carefully
+                lit interior, Sean brings the same professionalism and creative intensity to
+                every project — because every listing deserves images that stop the scroll.
               </p>
             </div>
 
