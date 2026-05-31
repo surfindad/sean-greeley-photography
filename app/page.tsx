@@ -57,12 +57,14 @@ export default function HomePage() {
             >
               View Work
             </Link>
-            <Link
-              href="/contact"
+            <a
+              href="https://apertureops.app/order/3079232bcc633c199b74e9b4e82ff4b5860fc3a35e88a531"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-8 py-3 border border-[#444] text-[#aaa] text-sm tracking-widest uppercase hover:border-white hover:text-white transition-all duration-300"
             >
               Book a Shoot
-            </Link>
+            </a>
           </div>
         </div>
 
