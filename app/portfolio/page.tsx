@@ -41,6 +41,14 @@ const photos: PhotoItem[] = [
   { id: 22, label: "Aerial View", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/YFh8283L/DJI-0521-HDR.jpg" },
   { id: 23, label: "Aerial View", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/R4PDvv7q/DJI-0531-HDR.jpg" },
   { id: 24, label: "Aerial View", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/kVWCPwJZ/DJI-0546-HDR.jpg" },
+  { id: 25, label: "Commercial", sublabel: "California", category: "Commercial", image: "https://i.ibb.co/359kfDyp/DSC00029.jpg" },
+  { id: 26, label: "Commercial", sublabel: "California", category: "Commercial", image: "https://i.ibb.co/Fb4Yzg7T/DSC00069.jpg" },
+  { id: 27, label: "Commercial", sublabel: "California", category: "Commercial", image: "https://i.ibb.co/xKdRjWxC/DSC00076.jpg" },
+  { id: 28, label: "Commercial", sublabel: "California", category: "Commercial", image: "https://i.ibb.co/BK2rVHLS/DSC00081.jpg" },
+  { id: 29, label: "Commercial", sublabel: "California", category: "Commercial", image: "https://i.ibb.co/hTSMwmQ/DSC00087.jpg" },
+  { id: 30, label: "Commercial", sublabel: "California", category: "Commercial", image: "https://i.ibb.co/Vpz63Vsx/DSC00096.jpg" },
+  { id: 31, label: "Commercial", sublabel: "California", category: "Commercial", image: "https://i.ibb.co/p6HnTM5p/DSC00108.jpg" },
+  { id: 32, label: "Commercial", sublabel: "California", category: "Commercial", image: "https://i.ibb.co/Lz3Fy6XS/DSC00124.jpg" },
 ];
 
 export default function PortfolioPage() {
