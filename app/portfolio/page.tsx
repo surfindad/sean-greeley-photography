@@ -36,6 +36,7 @@ const photos: PhotoItem[] = [
   { id: 17, label: "Kitchen", sublabel: "California", category: "Residential", image: "https://i.ibb.co/PZDxKyDD/Photo-May-26-2021-9-10-21-AM.jpg" },
   { id: 18, label: "Bathroom", sublabel: "California", category: "Residential", image: "https://i.ibb.co/S4ct81rS/DSC0105.jpg" },
   { id: 19, label: "Aerial View", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/TDj7GwGh/Photo-Mar-01-2023-9-56-30-AM.jpg" },
+  { id: 20, label: "Aerial View", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/jZySyXBf/DJI-0052.jpg" },
 ];
 
 export default function PortfolioPage() {
