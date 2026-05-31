@@ -31,10 +31,11 @@ const photos: PhotoItem[] = [
   { id: 12, label: "Luxury Pool", sublabel: "California", category: "Luxury", image: "https://i.ibb.co/3m0WvdwH/DSC0260.jpg" },
   { id: 13, label: "Luxury Estate", sublabel: "California", category: "Luxury", image: "https://i.ibb.co/1YTNkywt/Photo-Mar-08-2026-10-48-25-AM.jpg" },
   { id: 14, label: "Commercial Listing", sublabel: "California", category: "Commercial", image: "https://i.ibb.co/84t8vkmr/Photo-Jun-14-2021-8-25-24-AM.jpg" },
-  { id: 15, label: "Aerial View", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/33GH378/Photo-Apr-24-2019-7-09-42-PM.png" },
-  { id: 16, label: "Aerial Property", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/0pMDpZdJ/Photo-Jul-05-2024-7-02-59-PM.jpg" },
-  { id: 17, label: "Aerial Grounds", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/PZDxKyDD/Photo-May-26-2021-9-10-21-AM.jpg" },
-  { id: 18, label: "Aerial Overview", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/S4ct81rS/DSC0105.jpg" },
+  { id: 15, label: "Living Room", sublabel: "California", category: "Residential", image: "https://i.ibb.co/33GH378/Photo-Apr-24-2019-7-09-42-PM.png" },
+  { id: 16, label: "Kitchen", sublabel: "California", category: "Residential", image: "https://i.ibb.co/0pMDpZdJ/Photo-Jul-05-2024-7-02-59-PM.jpg" },
+  { id: 17, label: "Kitchen", sublabel: "California", category: "Residential", image: "https://i.ibb.co/PZDxKyDD/Photo-May-26-2021-9-10-21-AM.jpg" },
+  { id: 18, label: "Bathroom", sublabel: "California", category: "Residential", image: "https://i.ibb.co/S4ct81rS/DSC0105.jpg" },
+  { id: 19, label: "Aerial View", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/TDj7GwGh/Photo-Mar-01-2023-9-56-30-AM.jpg" },
 ];
 
 export default function PortfolioPage() {
