@@ -122,17 +122,17 @@ export default function ContactPage() {
           <div>
             <p className="text-xs text-[#888888] tracking-widest uppercase mb-3">Email</p>
             <a
-              href="mailto:seantgreeley@gmail.com"
+              href="mailto:seangreeleyphotography@gmail.com"
               className="text-white font-light text-sm hover:text-[#aaa] transition-colors duration-300"
             >
-              seantgreeley@gmail.com
+              seangreeleyphotography@gmail.com
             </a>
           </div>
           <div>
             <p className="text-xs text-[#888888] tracking-widest uppercase mb-3">Response Time</p>
             <p className="text-white font-light text-sm">Within one business day</p>
             <p className="text-[#666] text-xs mt-1 font-light">
-              Serving all of California, Bay Area &amp; beyond
+              Serving all of California &amp; beyond
             </p>
           </div>
         </div>
