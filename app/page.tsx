@@ -19,7 +19,7 @@ const categories = [
   {
     label: "Aerial",
     description: "Sweeping drone perspectives that reveal the full scope of every property.",
-    image: "https://i.ibb.co/33GH378/Photo-Apr-24-2019-7-09-42-PM.png",
+    image: "https://i.ibb.co/TDj7GwGh/Photo-Mar-01-2023-9-56-30-AM.jpg",
   },
 ];
 
