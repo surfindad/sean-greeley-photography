@@ -40,6 +40,7 @@ const photos: PhotoItem[] = [
   { id: 21, label: "Aerial View", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/trkh98C/DJI-0064.jpg" },
   { id: 22, label: "Aerial View", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/YFh8283L/DJI-0521-HDR.jpg" },
   { id: 23, label: "Aerial View", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/R4PDvv7q/DJI-0531-HDR.jpg" },
+  { id: 24, label: "Aerial View", sublabel: "California", category: "Aerial", image: "https://i.ibb.co/kVWCPwJZ/DJI-0546-HDR.jpg" },
 ];
 
 export default function PortfolioPage() {
