@@ -19,6 +19,16 @@ const services = [
     description:
       "360-degree immersive walkthroughs that let prospective buyers experience the flow of a property from anywhere in the world, at any hour.",
   },
+  {
+    title: "Video",
+    description:
+      "From cinematic property walkthroughs to social media-ready reels, professional video content that brings every listing to life and captures buyer attention across every platform.",
+  },
+  {
+    title: "Floor Plans",
+    description:
+      "Accurate, clean floor plan drawings that give buyers a clear sense of layout, flow, and square footage — an essential tool for any serious listing.",
+  },
 ];
 
 export default function AboutPage() {
