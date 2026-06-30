@@ -13,7 +13,7 @@ const addOns = [
   { name: "Social Media Package", price: "$120", description: "Vertical video ready to upload directly to your social media account." },
   { name: "Social Media Plus Package", price: "$200", description: "Teaser video and photos that are ready to upload to your social media account." },
   { name: "Floor Plan", price: "$100", description: "Accurate floor plan drawing of the property." },
-  { name: "Aerial Photography", price: "$180", description: "FAA-licensed drone photography of the property and surrounding area." },
+  { name: "Aerial Photography", price: "$200", description: "FAA-licensed drone photography of the property and surrounding area." },
   { name: "Aerial Video", price: "$300", description: "Cinematic drone video footage of the property." },
 ];
 
