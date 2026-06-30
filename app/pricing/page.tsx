@@ -9,7 +9,7 @@ const addOns = [
   { name: "Neighborhood Package", price: "$100", description: "Showcase the surrounding area and amenities." },
   { name: "Matterport", price: "$200", description: "Immersive 3D virtual tour of the property." },
   { name: "Virtual Staging", price: "$50 / room", description: "Digitally furnish empty rooms to help buyers visualize the space." },
-  { name: "Walkthrough Video", price: "$300", description: "Cinematic walkthrough video of the property." },
+  { name: "Walkthrough Video", price: "$150", description: "Cinematic walkthrough video of the property." },
   { name: "Social Media Package", price: "$120", description: "Vertical video ready to upload directly to your social media account." },
   { name: "Social Media Plus Package", price: "$200", description: "Teaser video and photos that are ready to upload to your social media account." },
   { name: "Floor Plan", price: "$100", description: "Accurate floor plan drawing of the property." },
