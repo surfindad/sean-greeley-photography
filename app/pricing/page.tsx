@@ -7,7 +7,7 @@ const packages = [
 const addOns = [
   { name: "Twilight Package", price: "$150", description: "Golden hour exterior shots at dusk." },
   { name: "Neighborhood Package", price: "$100", description: "Showcase the surrounding area and amenities." },
-  { name: "Matterport", price: "$200", description: "Immersive 3D virtual tour of the property." },
+  { name: "Matterport", price: "$250", description: "Immersive 3D virtual tour of the property." },
   { name: "Virtual Staging", price: "$50 / room", description: "Digitally furnish empty rooms to help buyers visualize the space." },
   { name: "Photo Walkthrough Video", price: "$150", description: "Cinematic photo slideshow walkthrough video of the property." },
   { name: "Social Media Package", price: "$120", description: "Vertical video ready to upload directly to your social media account." },
